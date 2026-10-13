@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2a0c2e">
+<meta name="description" content="A birthday page for Meghana Revuri's 25th birthday on 13 October 2026.">
+<title>Meghana's 25th Birthday</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23ff7a9c' d='M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.8 1.1 5.4 3 1.6-1.9 3.3-3 5.4-3 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Figtree:wght@400;500;700&family=Gloock&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="resources/css/styles.css">
+</head>
+<body>
+
+<canvas id="bg" aria-hidden="true"></canvas>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<main>
+  <!-- ======== HERO ======== -->
+  <section class="hero" aria-labelledby="title">
+    <div class="balloons" aria-hidden="true">
+      <i class="balloon" style="--x:56%;--b:8%;--s:84;--c:#ff7a9c;--d:.2s"></i>
+      <i class="balloon" style="--x:68%;--b:36%;--s:70;--c:#ffb020;--d:.5s"></i>
+      <i class="balloon" style="--x:80%;--b:12%;--s:98;--c:#ffd3df;--d:.8s"></i>
+      <i class="balloon" style="--x:90%;--b:44%;--s:62;--c:#ff9a76;--d:1.1s"></i>
+      <i class="balloon" style="--x:46%;--b:50%;--s:54;--c:#ff7a9c;--d:1.4s"></i>
+      <i class="balloon" style="--x:74%;--b:60%;--s:58;--c:#ffd3df;--d:1.7s"></i>
+      <i class="balloon" style="--x:88%;--b:74%;--s:50;--c:#ffb020;--d:2s"></i>
+    </div>
+    <div class="wrap">
+      <p class="kicker">Tuesday &middot; 13 October 2026</p>
+      <p class="hello">Happy Birthday,</p>
+      <h1 class="name" id="title" aria-label="Meghana">
+        <span style="--i:0" aria-hidden="true">M</span><span style="--i:1" aria-hidden="true">e</span><span style="--i:2" aria-hidden="true">g</span><span style="--i:3" aria-hidden="true">h</span><span style="--i:4" aria-hidden="true">a</span><span style="--i:5" aria-hidden="true">n</span><span style="--i:6" aria-hidden="true">a</span>
+      </h1>
+      <p class="surname"><span>Revuri</span>
+        <svg viewBox="0 0 120 12" aria-hidden="true"><path pathLength="100" d="M2 8 C 25 2, 50 11, 78 5 S 108 4, 118 7"/></svg>
+      </p>
+      <p class="lede">This page is the story of how we got here. I made it only for you.</p>
+      <div class="cd" id="cd">
+        <p class="cd-label" id="cd-label">Until you turn 25</p>
+        <div class="tiles" id="tiles" role="timer" aria-live="off">
+          <div class="tile"><b id="cd-d">00</b><span>Days</span></div>
+          <div class="tile"><b id="cd-h">00</b><span>Hours</span></div>
+          <div class="tile"><b id="cd-m">00</b><span>Minutes</span></div>
+          <div class="tile sec"><b id="cd-s">00</b><span>Seconds</span></div>
+        </div>
+        <p class="cd-msg" id="cd-msg" hidden></p>
+        <a class="btn btn-primary cta" href="#story">Read our story</a>
+      </div>
+      <div class="heart3d" id="heart3d" role="img" aria-label="A glowing 3D heart that turns slowly"></div>
+    </div>
+  </section>
+
+  <!-- ======== OUR STORY ======== -->
+  <section class="story" id="story" aria-labelledby="story-h">
+    <div class="story-intro wrap">
+      <p class="eyebrow">A story for you</p>
+      <h2 id="story-h">How we got here</h2>
+      <p class="sub">Eight chapters, from a KT session to today. Scroll slowly.</p>
+    </div>
+    <div class="story-stage" id="story-stage" aria-hidden="true">
+      <canvas id="story3d"></canvas>
+      <ul class="story-dots"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+    </div>
+    <div class="chapters">
+    <article class="chapter on" aria-labelledby="ch0">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 1 of 8</b><span>May 2025 &middot; Coal India project</span></p>
+        <h3 id="ch0">The KT session</h3>
+        <p>You joined Accenture as my junior, and I was the one assigned to give you KT. I had a plan for every session. I had no plan for you. Somewhere in those first weeks, you started liking me. Read the last line of the code on the screen.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch1">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 2 of 8</b><span>After the KT</span></p>
+        <h3 id="ch1">One ABAP object at a time</h3>
+        <p>Reports, interfaces, conversions, enhancements, forms and workflows. Whenever a new object came your way, I helped you with it. Every call and every screen share quietly became the best part of my day.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch2">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 3 of 8</b><span>13 June 2026 &middot; Ranchi</span></p>
+        <h3 id="ch2">The first time we met</h3>
+        <p>The Coal India project team went to Ranchi to celebrate, and you came too. Until then we had only seen each other on screens. That evening we sat by the pool, just the two of us, and talked and talked.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch3">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 4 of 8</b><span>After the party</span></p>
+        <h3 id="ch3">More than 1,000 km, never silent</h3>
+        <p>From that night we talked the whole day. You went back to Nagpur and I went back to Delhi, and a video call became our way of sharing a room, with kisses through the screen.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch4">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 5 of 8</b><span>21 August 2026</span></p>
+        <h3 id="ch4">Delhi to Nagpur, the first time</h3>
+        <p>I took my first flight to you. We stayed together, it was romantic, and we went out and explored side by side. The days we had only talked about were finally real.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch5">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 6 of 8</b><span>Back in Delhi</span></p>
+        <h3 id="ch5">The forgotten laptop</h3>
+        <p>Back home I realised I had left my laptop at the airport. An ABAP developer without a laptop. So I flew to Nagpur again to collect it, and you scolded me properly. It was also one more trip to you, so I did not mind.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch6">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 7 of 8</b><span>19 September 2026</span></p>
+        <h3 id="ch6">The third trip</h3>
+        <p>I came to Nagpur once more, and we enjoyed every single hour. Then I flew back to Delhi, and the countdown to the next time began.</p>
+      </div></div>
+    </article>
+    <article class="chapter" aria-labelledby="ch7">
+      <div class="chapter-in"><div class="card">
+        <p class="chap-meta"><b>Chapter 8 of 8</b><span>Now</span></p>
+        <h3 id="ch7">Elephant and Elephant</h3>
+        <p>Our nickname is an elephant with a heart, and we call each other baby. We still talk every day, and neither of us can stay without the other. Tap anywhere around the elephants.</p>
+      </div></div>
+    </article>
+    </div>
+  </section>
+
+  <!-- ======== 25 ======== -->
+  <section class="quarter" id="quarter" aria-labelledby="q-h">
+    <div class="wrap">
+      <div class="bignum rv" id="bignum" aria-hidden="true">25</div>
+      <div class="rv" style="--d:.15s">
+        <p class="eyebrow">13 Oct 2001 to 13 Oct 2026</p>
+        <h2 id="q-h">A quarter of a century of you</h2>
+        <p class="body">You were born on a Saturday and you turn twenty-five on a Tuesday. In between there is a lot of time, and here it is in numbers.</p>
+        <dl class="stats">
+          <div><dd><span data-to="25">25</span></dd><dt>Years</dt></div>
+          <div><dd><span data-to="9131">9,131</span></dd><dt>Days</dt></div>
+          <div><dd><span data-to="219144">2,19,144</span></dd><dt>Hours</dt></div>
+          <div><dd><span data-to="1304">1,304</span></dd><dt>Full weeks</dt></div>
+        </dl>
+        <div class="years" id="years" aria-hidden="true"></div>
+        <div class="years-ends"><span>Sat, 13 Oct 2001</span><span>Tue, 13 Oct 2026</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CAKE ======== -->
+  <section class="cake-sec" aria-labelledby="c-h">
+    <div class="wrap">
+      <div class="rv">
+        <svg class="cake-svg" id="cake" viewBox="0 0 320 300" role="img" aria-label="A two-tier birthday cake with five lit candles">
+          <defs>
+            <radialGradient id="fl" cx="50%" cy="70%" r="60%"><stop offset="0" stop-color="#fffbe0"/><stop offset=".5" stop-color="#ffc233"/><stop offset="1" stop-color="#ff7a3c"/></radialGradient>
+            <radialGradient id="gl"><stop offset="0" stop-color="#ffd27a" stop-opacity=".6"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>
+          </defs>
+          <ellipse cx="160" cy="278" rx="120" ry="7" fill="#000" opacity=".28"/>
+          <ellipse cx="160" cy="266" rx="144" ry="15" fill="#fff4ea"/>
+          <ellipse cx="160" cy="262" rx="130" ry="10" fill="#ffd3df" opacity=".6"/>
+          <!-- bottom tier -->
+          <rect x="50" y="176" width="220" height="86" rx="14" fill="#ff7a9c"/>
+          <rect x="50" y="172" width="220" height="18" rx="9" fill="#ffd3df"/>
+          <g fill="#ffd3df">
+            <circle cx="60" cy="190" r="10"/><circle cx="80" cy="190" r="10"/><circle cx="100" cy="190" r="10"/><circle cx="120" cy="190" r="10"/><circle cx="140" cy="190" r="10"/><circle cx="160" cy="190" r="10"/><circle cx="180" cy="190" r="10"/><circle cx="200" cy="190" r="10"/><circle cx="220" cy="190" r="10"/><circle cx="240" cy="190" r="10"/><circle cx="260" cy="190" r="10"/>
+          </g>
+          <rect x="95" y="214" width="130" height="30" rx="8" fill="#fff4ea"/>
+          <text x="160" y="234.5" text-anchor="middle" font-family="Gloock, Georgia, serif" font-size="17" fill="#2a0c2e">Meghana &#183; 25</text>
+          <g fill="#ffb020"><rect x="66" y="212" width="9" height="3.5" rx="1.7" transform="rotate(30 70 214)"/><rect x="74" y="238" width="9" height="3.5" rx="1.7" transform="rotate(-25 78 240)"/><rect x="246" y="214" width="9" height="3.5" rx="1.7" transform="rotate(-35 250 216)"/><rect x="236" y="244" width="9" height="3.5" rx="1.7" transform="rotate(20 240 246)"/></g>
+          <g fill="#fff4ea"><rect x="86" y="228" width="9" height="3.5" rx="1.7" transform="rotate(-40 90 230)"/><rect x="232" y="228" width="9" height="3.5" rx="1.7" transform="rotate(40 236 230)"/><rect x="108" y="250" width="9" height="3.5" rx="1.7" transform="rotate(15 112 252)"/><rect x="206" y="252" width="9" height="3.5" rx="1.7" transform="rotate(-20 210 254)"/></g>
+          <!-- top tier -->
+          <rect x="90" y="104" width="140" height="72" rx="12" fill="#ff94ad"/>
+          <rect x="90" y="100" width="140" height="16" rx="8" fill="#ffd3df"/>
+          <g fill="#ffd3df">
+            <circle cx="100" cy="116" r="10"/><circle cx="120" cy="116" r="10"/><circle cx="140" cy="116" r="10"/><circle cx="160" cy="116" r="10"/><circle cx="180" cy="116" r="10"/><circle cx="200" cy="116" r="10"/><circle cx="220" cy="116" r="10"/>
+          </g>
+          <g fill="#ffb020"><rect x="104" y="146" width="9" height="3.5" rx="1.7" transform="rotate(25 108 148)"/><rect x="176" y="150" width="9" height="3.5" rx="1.7" transform="rotate(-30 180 152)"/><rect x="146" y="164" width="9" height="3.5" rx="1.7" transform="rotate(10 150 166)"/></g>
+          <g fill="#fff4ea"><rect x="128" y="142" width="9" height="3.5" rx="1.7" transform="rotate(-35 132 144)"/><rect x="204" y="144" width="9" height="3.5" rx="1.7" transform="rotate(35 208 146)"/><rect x="108" y="164" width="9" height="3.5" rx="1.7" transform="rotate(-15 112 166)"/><rect x="202" y="166" width="9" height="3.5" rx="1.7" transform="rotate(20 206 168)"/></g>
+          <!-- candles -->
+          <g>
+            <rect x="108" y="70" width="8" height="32" rx="2" fill="#ffb020"/>
+            <rect x="132" y="70" width="8" height="32" rx="2" fill="#fff4ea"/>
+            <rect x="156" y="70" width="8" height="32" rx="2" fill="#ffb020"/>
+            <rect x="180" y="70" width="8" height="32" rx="2" fill="#fff4ea"/>
+            <rect x="204" y="70" width="8" height="32" rx="2" fill="#ffb020"/>
+          </g>
+          <g id="flames">
+            <g transform="translate(112 66)"><circle class="glow" r="24" cy="-12" fill="url(#gl)" style="--d:.0s"/><g class="flame" style="--d:.0s"><path d="M0 -24 C 9 -12 9 -2 0 3 C -9 -2 -9 -12 0 -24Z" fill="url(#fl)"/><ellipse cx="0" cy="-5" rx="3" ry="5" fill="#fffbe6" opacity=".9"/></g><path class="smoke" style="--d:.0s" d="M0 -8 q6 -9 0 -18 q-6 -9 0 -18" stroke="#fff4ea" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+            <g transform="translate(136 66)"><circle class="glow" r="24" cy="-12" fill="url(#gl)" style="--d:.15s"/><g class="flame" style="--d:.15s"><path d="M0 -24 C 9 -12 9 -2 0 3 C -9 -2 -9 -12 0 -24Z" fill="url(#fl)"/><ellipse cx="0" cy="-5" rx="3" ry="5" fill="#fffbe6" opacity=".9"/></g><path class="smoke" style="--d:.1s" d="M0 -8 q6 -9 0 -18 q-6 -9 0 -18" stroke="#fff4ea" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+            <g transform="translate(160 66)"><circle class="glow" r="24" cy="-12" fill="url(#gl)" style="--d:.3s"/><g class="flame" style="--d:.3s"><path d="M0 -24 C 9 -12 9 -2 0 3 C -9 -2 -9 -12 0 -24Z" fill="url(#fl)"/><ellipse cx="0" cy="-5" rx="3" ry="5" fill="#fffbe6" opacity=".9"/></g><path class="smoke" style="--d:.2s" d="M0 -8 q6 -9 0 -18 q-6 -9 0 -18" stroke="#fff4ea" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+            <g transform="translate(184 66)"><circle class="glow" r="24" cy="-12" fill="url(#gl)" style="--d:.1s"/><g class="flame" style="--d:.1s"><path d="M0 -24 C 9 -12 9 -2 0 3 C -9 -2 -9 -12 0 -24Z" fill="url(#fl)"/><ellipse cx="0" cy="-5" rx="3" ry="5" fill="#fffbe6" opacity=".9"/></g><path class="smoke" style="--d:.3s" d="M0 -8 q6 -9 0 -18 q-6 -9 0 -18" stroke="#fff4ea" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+            <g transform="translate(208 66)"><circle class="glow" r="24" cy="-12" fill="url(#gl)" style="--d:.25s"/><g class="flame" style="--d:.25s"><path d="M0 -24 C 9 -12 9 -2 0 3 C -9 -2 -9 -12 0 -24Z" fill="url(#fl)"/><ellipse cx="0" cy="-5" rx="3" ry="5" fill="#fffbe6" opacity=".9"/></g><path class="smoke" style="--d:.4s" d="M0 -8 q6 -9 0 -18 q-6 -9 0 -18" stroke="#fff4ea" fill="none" stroke-width="2" stroke-linecap="round"/></g>
+          </g>
+        </svg>
+      </div>
+      <div class="rv" style="--d:.15s">
+        <p class="eyebrow">Make a wish</p>
+        <h2 id="c-h">Close your eyes and think of something big.</h2>
+        <p class="sub">Hold the wish for a moment, then blow out the candles. A little tune plays when you do.</p>
+        <div class="actions">
+          <button class="btn btn-primary" id="blow" type="button">Blow out the candles</button>
+          <button class="btn btn-ghost" id="relight" type="button" hidden>Light them again</button>
+          <button class="btn btn-ghost" id="again" type="button" hidden>Play the tune again</button>
+        </div>
+        <p class="status" id="status" aria-live="polite">Five candles are waiting.</p>
+        <label class="snd" for="sound"><input type="checkbox" id="sound" checked> Sound on</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== MEMORIES ======== -->
+  <section class="memories" aria-labelledby="m-h">
+    <div class="wrap">
+      <div class="mem-head rv">
+        <p class="eyebrow">16 photos</p>
+        <h2 id="m-h">Moments with you</h2>
+        <p class="sub">Tap any photo to see it bigger.</p>
+      </div>
+      <div class="wall" id="wall"></div>
+    </div>
+  </section>
+
+  <!-- ======== LETTER ======== -->
+  <section class="letter-sec" aria-labelledby="l-h">
+    <div class="wrap">
+      <div class="rv">
+        <p class="eyebrow">From your Elephant</p>
+        <h2 id="l-h">A letter, just for you</h2>
+      </div>
+      <article class="letter rv" style="--d:.15s">
+        <p>Dear Meghana,</p>
+        <p>Baby, you turn 25 today. In May 2025 you were a new joiner and I had to give you KT. Now you are the first person I want to call every morning.</p>
+        <p>I still think about that evening by the pool in Ranchi, when two people who had only ever met on screens could not stop talking. Thank you for every video call, every kiss through the screen, and every scolding, including the one about my laptop.</p>
+        <p>Thank you for making Delhi feel a little closer to Nagpur. I hope this year gives you back everything you give away.</p>
+        <p>Happy 25th birthday, my love. I am always right here, cheering the loudest.</p>
+        <p class="sign"><span>Always yours, Suvasis</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.8 1.1 5.4 3 1.6-1.9 3.3-3 5.4-3 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z"/></svg>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ======== WISHES ======== -->
+  <section class="wish-sec" aria-labelledby="w-h">
+    <div class="wrap">
+      <div class="wish-head rv">
+        <p class="eyebrow">One for every year</p>
+        <h2 id="w-h">Twenty-five wishes</h2>
+        <p class="sub">Open them in any order. Each number hides a wish for the year ahead.</p>
+      </div>
+      <div class="wish-card rv">
+        <span class="ghost" id="w-ghost" aria-hidden="true">1</span>
+        <p class="wish-meta" id="w-meta">Wish 1 of 25</p>
+        <p class="wish-text" id="w-text" aria-live="polite">May this year begin with a morning that feels completely yours.</p>
+        <div class="wish-foot">
+          <button class="btn btn-primary" id="w-rand" type="button">Surprise me</button>
+          <div class="bar" aria-hidden="true"><i id="w-bar"></i></div>
+          <span class="count" id="w-count">1 of 25 opened</span>
+        </div>
+      </div>
+      <div class="wish-side rv" style="--d:.15s">
+        <div class="wish-grid" id="w-grid" role="group" aria-label="Choose a wish"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== NIGHT SKY ======== -->
+  <section class="night" id="night" aria-labelledby="n-h">
+    <div class="stars" id="stars" aria-hidden="true"></div>
+    <canvas id="sky" aria-label="Night sky. Tap anywhere to launch a firework."></canvas>
+    <div class="wrap night-copy">
+      <p class="hint">Tap the sky</p>
+      <h2 id="n-h">Happy 25th, Meghana.</h2>
+      <p class="with">With all my love, Suvasis</p>
+    </div>
+  </section>
+  <footer class="foot wrap">
+    <span>Made for Meghana Revuri &middot; 13 October 2026</span>
+    <button class="btn btn-ghost" id="replay" type="button">Throw confetti again</button>
+  </footer>
+</main>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" id="lb-close" type="button" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lb-btn lb-prev" id="lb-prev" type="button" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="lb-btn lb-next" id="lb-next" type="button" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  <img id="lb-img" alt="">
+  <p class="lb-cap" id="lb-cap"></p>
+  <p class="lb-count" id="lb-count"></p>
+</div>
+
+<script src="3d/three.min.js"></script>
+<script src="3d/heart3d.js"></script>
+<script src="3d/story3d.js"></script>
+<script src="resources/js/photos.js"></script>
+<script src="resources/js/main.js"></script>
+</body>
+</html>
